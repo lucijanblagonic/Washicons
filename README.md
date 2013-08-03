@@ -1,4 +1,4 @@
-# [Washicons](http://lucijanblagonic.github.com/washicons)
+# [Washicons](http://lucijanblagonic.github.com/Washicons)
 
 ### Common Care Symbols
 
