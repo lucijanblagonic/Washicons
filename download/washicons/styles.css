@@ -1,0 +1,374 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "washicons";
+  src:url("fonts/washicons.eot");
+  src:url("fonts/washicons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/washicons.ttf") format("truetype"),
+    url("fonts/washicons.svg#washicons") format("svg"),
+    url("fonts/washicons.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "washicons";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "washicons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none !important;
+  speak: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 1em;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.icon-dryclean-w-3:before {
+  content: "\e000";
+}
+
+.icon-dryclean-not-allowed:before {
+  content: "\e001";
+}
+
+.icon-custom-detergent:before {
+  content: "\e002";
+}
+
+.icon-tumble-dry-shade-drip:before {
+  content: "\e003";
+}
+
+.icon-custom-t-shirt:before {
+  content: "\e004";
+}
+
+.icon-custom-pants:before {
+  content: "\e005";
+}
+
+.icon-iron:before {
+  content: "\e006";
+}
+
+.icon-custom-laundry-basket-full:before {
+  content: "\e007";
+}
+
+.icon-dryclean-a:before {
+  content: "\e008";
+}
+
+.icon-wrink-not-allowed:before {
+  content: "\e009";
+}
+
+.icon-custom-laundry-basket:before {
+  content: "\e00a";
+}
+
+.icon-wet-clean-not-allowed:before {
+  content: "\e00b";
+}
+
+.icon-custom-drop:before {
+  content: "\e00c";
+}
+
+.icon-tumble-dry-shade-flat-surface:before {
+  content: "\e00d";
+}
+
+.icon-dryclean-f:before {
+  content: "\e00e";
+}
+
+.icon-dryclean-f-2:before {
+  content: "\e00f";
+}
+
+.icon-tumble-dry-55deg-permanent-press:before {
+  content: "\e010";
+}
+
+.icon-tumble-dry-55deg:before {
+  content: "\e011";
+}
+
+.icon-tumble-dry-any-heat:before {
+  content: "\e012";
+}
+
+.icon-iron-150deg:before {
+  content: "\e013";
+}
+
+.icon-iron-200deg:before {
+  content: "\e014";
+}
+
+.icon-washing-30deg-by-hand:before {
+  content: "\e015";
+}
+
+.icon-tumble-dry-no-heat:before {
+  content: "\e016";
+}
+
+.icon-washing-30deg-extra-care:before {
+  content: "\e017";
+}
+
+.icon-washing-60deg-permanent-press:before {
+  content: "\e018";
+}
+
+.icon-washing-50deg:before {
+  content: "\e019";
+}
+
+.icon-washing-50deg-permanent-press-alt:before {
+  content: "\e01a";
+}
+
+.icon-washing-40deg-permanent-press-alt:before {
+  content: "\e01b";
+}
+
+.icon-washing-50deg-permanent-press:before {
+  content: "\e01c";
+}
+
+.icon-washing-40deg:before {
+  content: "\e01d";
+}
+
+.icon-washing-50deg-alt:before {
+  content: "\e01e";
+}
+
+.icon-iron-110deg:before {
+  content: "\e01f";
+}
+
+.icon-tumble-dry-75deg:before {
+  content: "\e020";
+}
+
+.icon-washing-40deg-permanent-press:before {
+  content: "\e021";
+}
+
+.icon-washing-40deg-extra-care-alt:before {
+  content: "\e022";
+}
+
+.icon-tumble-dry-55deg-delicate-cycle:before {
+  content: "\e023";
+}
+
+.icon-tumble-dry-shade:before {
+  content: "\e024";
+}
+
+.icon-bleach-use-any-bleach:before {
+  content: "\e025";
+}
+
+.icon-washing-40deg-alt:before {
+  content: "\e026";
+}
+
+.icon-washing-40deg-extra-care:before {
+  content: "\e027";
+}
+
+.icon-washing-30deg:before {
+  content: "\e028";
+}
+
+.icon-washing-30deg-alt:before {
+  content: "\e029";
+}
+
+.icon-bleach-not-allowed:before {
+  content: "\e02a";
+}
+
+.icon-tumble-dry-line:before {
+  content: "\e02b";
+}
+
+.icon-bleach-non-chlorine:before {
+  content: "\e02c";
+}
+
+.icon-washing-not-allowed:before {
+  content: "\e02d";
+}
+
+.icon-washing-95deg-alt:before {
+  content: "\e02e";
+}
+
+.icon-washing-95deg-permanent-press-alt:before {
+  content: "\e02f";
+}
+
+.icon-washing-normal:before {
+  content: "\e030";
+}
+
+.icon-tumble-dry-65deg:before {
+  content: "\e031";
+}
+
+.icon-dryclean-p:before {
+  content: "\e032";
+}
+
+.icon-tumble-dry-65deg-permanent-press:before {
+  content: "\e033";
+}
+
+.icon-iron-do-not-iron-or-press:before {
+  content: "\e034";
+}
+
+.icon-dryclean-w:before {
+  content: "\e035";
+}
+
+.icon-tumble-dry-drip:before {
+  content: "\e036";
+}
+
+.icon-dryclean-p-2:before {
+  content: "\e037";
+}
+
+.icon-dryclean-w-2:before {
+  content: "\e038";
+}
+
+.icon-custom-washing-machine:before {
+  content: "\e039";
+}
+
+.icon-custom-washing-machine-2:before {
+  content: "\e03a";
+}
+
+.icon-custom-drying-machine:before {
+  content: "\e03b";
+}
+
+.icon-tumble-dry-shade-line:before {
+  content: "\e03c";
+}
+
+.icon-custom-iron-press:before {
+  content: "\e03d";
+}
+
+.icon-tumble-dry-flat-surface:before {
+  content: "\e03e";
+}
+
+.icon-tumble-dry-not-allowed:before {
+  content: "\e03f";
+}
+
+.icon-washing-30deg-extra-care-alt:before {
+  content: "\e040";
+}
+
+.icon-washing-30deg-permament-press-alt:before {
+  content: "\e041";
+}
+
+.icon-washing-40deg-by-hand:before {
+  content: "\e042";
+}
+
+.icon-washing-by-hand:before {
+  content: "\e043";
+}
+
+.icon-washing-70deg-alt:before {
+  content: "\e044";
+}
+
+.icon-washing-60deg-permanent-press-alt:before {
+  content: "\e045";
+}
+
+.icon-washing-30deg-permament-press:before {
+  content: "\e046";
+}
+
+.icon-washing-70deg:before {
+  content: "\e047";
+}
+
+.icon-washing-95deg-permanent-press:before {
+  content: "\e048";
+}
+
+.icon-washing-60deg-alt:before {
+  content: "\e049";
+}
+
+.icon-washing-95deg:before {
+  content: "\e04a";
+}
+
+.icon-washing-60deg:before {
+  content: "\e04b";
+}
+
+.icon-iron-do-not-iron:before {
+  content: "\e04c";
+}
+
+.icon-dryclean-low-heat:before {
+  content: "\e04d";
+}
+
+.icon-dryclean-no-steam:before {
+  content: "\e04e";
+}
+
+.icon-dryclean-reduced-moisture:before {
+  content: "\e04f";
+}
+
+.icon-dryclean-short-cycle:before {
+  content: "\e050";
+}
+
+.icon-dryclean:before {
+  content: "\e051";
+}
+
