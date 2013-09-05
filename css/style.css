@@ -186,8 +186,8 @@ strong              { font-weight:700; color:#444; }
 
 /* Site branding */
 .site-title {
-    font-size: 48px;
-    font-size: 3rem;
+    font-size: 44px;
+    font-size: 2.75rem;
     font-weight: 200;
     margin-bottom: 0;
 }
@@ -201,6 +201,18 @@ strong              { font-weight:700; color:#444; }
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.4;
+}
+
+/* Fork me */
+.fork-me {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+.fork-me img {
+    display: block;
+    border: 0;
 }
 
 /* Washicons */
